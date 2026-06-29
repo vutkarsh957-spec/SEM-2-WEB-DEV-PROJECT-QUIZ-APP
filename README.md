@@ -1,0 +1,2 @@
+# SEM-2-WEB-DEV-PROJECT-QUIZ-APP
+This is SEM-2 project.
