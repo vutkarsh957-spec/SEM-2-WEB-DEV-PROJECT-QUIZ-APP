@@ -1,0 +1,92 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tracker {
+    color: #65676b;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 0;
+    color: #1c1e21;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.options-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.option-btn {
+    padding: 12px 15px;
+    font-size: 0.95rem;
+    text-align: left;
+    background: #f0f2f5;
+    border: 1px solid #e4e6eb;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.1s ease;
+}
+
+.option-btn:hover:not(:disabled) {
+    background: #e4e6eb;
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+}
+
+.option-btn.correct {
+    background-color: #e7f3ff !important;
+    border-color: #1877f2 !important;
+    color: #1877f2;
+    font-weight: bold;
+}
+
+.option-btn.wrong {
+    background-color: #ffebe9 !important;
+    border-color: #e41e3f !important;
+    color: #e41e3f;
+}
+
+.action-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #166fe5;
+}
